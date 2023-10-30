@@ -22,6 +22,7 @@ const Hero = () => {
     }
     const clipboardCall = () => {
         setCopy(text == "" ? "" : navigator.clipboard.writeText(text));
+        alert("Copied to Clipboard!");
     }
 
     return (
